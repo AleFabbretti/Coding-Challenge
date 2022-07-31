@@ -1,0 +1,91 @@
+body {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  background-repeat: no-repeat;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.container{
+  width: 1000px;
+  margin: 50px auto 0 auto;
+  padding: 50px 80px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 25px;
+}
+
+.logo-section img{
+  width: 200px;
+}
+
+.logo-section{
+  text-align: center;
+}
+
+.header{
+  font-size: 24px;
+  text-align: center;
+  color: lime;
+}
+
+.list-monopattini{
+  list-style-type: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+.list-monopattini>li{
+  margin-bottom: 20px;
+}
+
+.selection{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background-color: lime;
+  padding: 10px;
+}
+
+
+.m1{
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.via{
+  font-size: 13px;
+  color: white;
+}
+
+.carica-label{
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  display: block;
+}
+
+.carica{
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.orange{
+  background-color: #F5B453;
+  width: 35%;
+}
+
+.green{
+  background-color: #1EC31E;
+  width: 60%;
+}
+
+.red{
+  background-color: #BE4141;
+  width: 15%;
+}
